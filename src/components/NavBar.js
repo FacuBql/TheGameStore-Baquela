@@ -1,4 +1,4 @@
-const App = () => {
+const Nav = () => {
   return (
     <header className="header">
       <h1 className="header_titulo">The Game Store</h1>
@@ -12,4 +12,5 @@ const App = () => {
     </header>
   );
 };
-export default App;
+
+export default Nav;
