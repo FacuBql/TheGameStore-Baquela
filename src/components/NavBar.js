@@ -1,4 +1,5 @@
-const Nav = () => {
+import CartWidget from "./CartWidget";
+const NavBar = () => {
   return (
     <header className="header">
       <h1 className="header_titulo">The Game Store</h1>
@@ -8,9 +9,12 @@ const Nav = () => {
         <a href="#">Los más pedidos</a>
 
         <a href="#">Retro</a>
+        <>
+          <CartWidget />
+        </>
       </nav>
     </header>
   );
 };
 
-export default Nav;
+export default NavBar;

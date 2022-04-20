@@ -4,10 +4,12 @@ import ReactDOM from "react-dom/client";
 
 import App from "./App";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //const App = () => {
-  //return "Hola mundo";
+//return "Hola mundo";
 //};
 
-root.render(<App/>);
+root.render(<App />);

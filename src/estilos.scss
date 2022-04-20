@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+#root > main {
+  flex-grow: 1;
+  padding: 1px;
+}
+
+#root > header {
+  background-color: black;
+  color: firebrick;
+  border-bottom: 2px solid firebrick;
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+nav {
+  a {
+    color: firebrick;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: firebrick;
+  padding: 2rem;
+}
+
+ion-icon {
+  font-size: 4rem;
+  display: flex;
+  justify-content: end;
+  margin-left: 2rem;
+}
