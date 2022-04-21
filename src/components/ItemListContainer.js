@@ -1,9 +1,13 @@
-const ItemListContainer = () => {
+const ItemListContainer = (props) => {
+  return <div className="greeting">{props.greeting}</div>;
+};
+
+const Greeting = () => {
   return (
-    <div className="greeting">
-      Los mejores estrenos, clásicos y ofertas en un solo lugar.
+    <div>
+      <ItemListContainer greeting="Los mejores estrenos, clásicos y ofertas en un solo lugar." />
     </div>
   );
 };
 
-export default ItemListContainer;
+export default Greeting;
