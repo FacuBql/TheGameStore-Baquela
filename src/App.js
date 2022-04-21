@@ -5,7 +5,9 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <ItemListContainer />
+      <ItemListContainer
+        greeting={"Los mejores estrenos, clásicos y ofertas en un solo lugar."}
+      />
     </>
   );
 };
