@@ -13,7 +13,7 @@ const ItemCount = ({ init, stock, onAdd }) => {
   };
 
   const confirm = () => {
-    //onAdd(counter);
+    onAdd(counter);
     if (counter <= stock) {
       setSuccess(true);
     } else if (counter < stock) {
