@@ -1,7 +1,7 @@
 const ItemDetail = ({ products }) => {
   return (
     <section>
-    <ItemDetail/>
+      <ItemDetail />
     </section>
   );
 };
