@@ -11,11 +11,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <NavBar />
-        <Container
-          greeting={
-            "Los mejores estrenos, clásicos y ofertas en un solo lugar."
-          }
-        />
+        
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route
