@@ -5,13 +5,15 @@ import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import { Routes, Route } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
+import MiCustomProvider from "./CartContext";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <MiCustomProvider />
         <NavBar />
-        
+
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route

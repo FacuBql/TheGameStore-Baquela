@@ -21,6 +21,7 @@ const catalog = [
     implacable corazón de América para poder sobrevivir.
   </p>,
     price: 6000,
+    quantity: 5,
   },
 ]
 

@@ -1,9 +1,11 @@
 import CartWidget from "./CartWidget";
 import { Link } from "react-router-dom";
+import CartWidget from './CartWidget'
 
 const NavBar = () => {
   return (
     <header className="header">
+       <CartWidget/>
       <Link to="/" className="nav__link">
         <h1 className="header_titulo">The Game Store</h1>
       </Link>

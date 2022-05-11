@@ -6,16 +6,19 @@ const initialProducts = [
     id: 1,
     name: "Metal Gear Solid",
     price: 2000,
+    quantity: 5,
   },
   {
     id: 2,
     name: "Red Dead Redemption 2",
     price: 6000,
+    quantity: 5,
   },
   {
     id: 3,
     name: "Elden Ring",
     price: 8000,
+    quantity: 5,
   },
 ];
 

@@ -1,22 +1,23 @@
 import ItemCount from "./ItemCount";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
+import { context } from "./CartContext";
+
+
 
 const ItemDetail = ({ onClick }) => {
   const [counter, setCounter] = useState(0);
-
-  const handleClick = () => {
-    setCounter(counter + 1);
-  };
+  const {addProduct} = useContext(context)
 
   const handleConfirm = () => {
     onClick("?");
   };
+
   return (
     <>
       <ItemCount />
       <p>Carrito: {counter}</p>
-      <button onClick={handleClick}>Click</button>{" "}
+      <button>Click</button>
       <Link to="/cart" className="nav__link">
         <button onClick={handleConfirm}>Confirmar</button>{" "}
       </Link>
