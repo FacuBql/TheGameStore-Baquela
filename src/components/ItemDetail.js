@@ -19,7 +19,7 @@ const ItemDetail = ({ onClick }) => {
       <p>Carrito: {counter}</p>
       <button>Click</button>
       <Link to="/cart" className="nav__link">
-        <button onClick={handleConfirm}>Confirmar</button>{" "}
+        <button onClick={handleConfirm}>Terminar mi compra</button>{" "}
       </Link>
     </>
   );
