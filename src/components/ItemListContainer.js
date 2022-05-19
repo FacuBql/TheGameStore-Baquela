@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ItemList from "./ItemList";
+import { db } from "./firebase";
 
 const initialProducts = [
   {
